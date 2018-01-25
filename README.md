@@ -43,7 +43,7 @@ Hightower and can be used as reference and/or to save typing. See
 
 ```
 vagrant destroy -f   # remove previous setup
-./scripts/setup      # takes about 5 minutes or more
+sudo ./scripts/setup      # takes about 5 minutes or more
 [...]
 ```
 
@@ -54,7 +54,7 @@ If everything looks good, continue with ["Using the cluster"](#using-the-cluster
 Remove previously created certificates, tools kubeconfig files:
 
 ```
-./scripts/distclean
+sudo ./scripts/distclean
 ```
 
 Download required tools and files:
